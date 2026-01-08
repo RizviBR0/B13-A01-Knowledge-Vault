@@ -284,9 +284,13 @@ button[class="outline-button"]:hover {
 }
 
 /* ready container */
-.ready-banner-container {
+#ready-banner {
   max-width: 1600px;
   margin: 0 auto;
+  padding: 0 120px 120px 120px;
+}
+
+.ready-banner-container {
   padding: 80px 40px;
   display: flex;
   gap: 24px;
@@ -296,7 +300,6 @@ button[class="outline-button"]:hover {
   text-align: center;
   background-color: #f7f6f2;
   border-radius: 12px;
-  margin-bottom: 120px;
 }
 
 .ready-banner-container .top-div {
