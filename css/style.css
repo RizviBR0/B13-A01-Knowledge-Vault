@@ -277,3 +277,40 @@ button[class="outline-button"]:hover {
   gap: 6px;
   justify-content: flex-start;
 }
+
+/* ready container */
+.ready-banner-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 80px 40px;
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #f7f6f2;
+  border-radius: 12px;
+  margin-bottom: 120px;
+}
+
+.ready-banner-container .top-div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ready-banner-container .top-div p {
+  line-height: 24px;
+}
+
+.ready-banner-container .bottom-div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ready-banner-container .bottom-div button {
+  margin: 0 auto;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
+}
