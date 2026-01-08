@@ -26,6 +26,14 @@ header {
   border-radius: 100px;
 }
 
+.h-44 {
+  height: 44px;
+}
+
+.h-52 {
+  height: 52px;
+}
+
 .flex-center {
   display: flex;
   align-items: center;
@@ -121,7 +129,7 @@ button:hover {
   width: 100%;
 }
 
-.hero-conatiner .hero-top {
+.hero-container .hero-top {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -156,7 +164,7 @@ button:hover {
   display: flex;
   gap: 16px;
   justify-content: center;
-  ailgn-items: center;
+  align-items: center;
 }
 
 button {
@@ -181,11 +189,12 @@ button {
 .outline-button {
   border: 1px solid #fff;
   background-color: transparent;
+  height: 52px;
 }
 
 button[class="outline-button"]:hover {
   background-color: #ffffff;
-  color: #469165;
+  color: #000000ff;
 }
 
 /* note and structure section */
@@ -198,6 +207,7 @@ button[class="outline-button"]:hover {
   gap: 44px;
   max-width: 1600px;
   margin: 0 auto;
+  background-color: #fbfbfb;
 }
 
 #note-card .note-container .top-div {
@@ -238,11 +248,6 @@ button[class="outline-button"]:hover {
   justify-content: center;
   width: 100%;
 }
-
-/* #solution .solution-container .left {
-  width: 600px;
-  height: 600px;
-} */
 
 #solution .solution-container .left img {
   width: 600px;
@@ -313,4 +318,65 @@ button[class="outline-button"]:hover {
 .ready-banner-container .bottom-div button {
   margin: 0 auto;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+/* footer section */
+footer {
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: #001931;
+  padding: 120px 120px 30px 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+footer .top-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer-logo {
+  width: 139px;
+}
+
+footer .social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 220px;
+}
+
+footer .social-links p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+footer .social-links .social-icons {
+  display: flex;
+  gap: 16px;
+}
+
+footer .social-links .social-icons img {
+  width: 20px;
+  cursor: pointer;
+}
+
+footer .bottom-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 30px;
+  border-top: 1px solid #2e4256;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
