@@ -32,6 +32,18 @@ header {
   justify-content: center;
 }
 
+h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #001931;
+}
+
 p {
   font-size: 16px;
   font-weight: 400;
@@ -170,4 +182,41 @@ button {
 button[class="outline-button"]:hover {
   background-color: #ffffff;
   color: #469165;
+}
+
+/* note and structure section */
+#note-card .note-container {
+  padding: 58px 120px 120px 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 44px;
+}
+
+#note-card .note-container .top-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+#note-card .note-container .cards {
+  height: 300px;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+#note-card .note-container .cards .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 24px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
 }
