@@ -51,6 +51,10 @@ p {
   color: #627382;
 }
 
+li {
+  list-style: none;
+}
+
 /* navbar styles */
 .navbar {
   display: flex;
@@ -192,6 +196,8 @@ button[class="outline-button"]:hover {
   align-items: center;
   justify-content: center;
   gap: 44px;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 #note-card .note-container .top-div {
@@ -219,4 +225,55 @@ button[class="outline-button"]:hover {
   text-align: center;
   border-radius: 8px;
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* solution section */
+#solution .solution-container {
+  padding: 120px;
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/* #solution .solution-container .left {
+  width: 600px;
+  height: 600px;
+} */
+
+#solution .solution-container .left img {
+  width: 600px;
+  height: 600px;
+}
+
+#solution .solution-container .right {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+#solution .solution-container .right .right-top {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+}
+
+.right-checklist {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.checklist-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  justify-content: flex-start;
 }
