@@ -12,32 +12,48 @@
 </head>
 
 <body>
+    <!-- top navbar -->
     <header>
         <nav class="navbar">
+            <!-- navbar logo -->
             <div>
                 <img src="assets/logo-navbar.png" alt="">
             </div>
+            <!-- navbar links  -->
             <ul class="nav-links">
                 <li><a href="">Features</a></li>
                 <li><a href="">How it works</a></li>
                 <li><a href="">Why it's different</a></li>
             </ul>
-            <button>Get Early Access</button>
+            <!-- navbar button -->
+            <button class="cta-button">Get Early Access</button>
         </nav>
     </header>
 
     <main>
+        <!-- hero section -->
         <section id="hero">
             <div class="hero-container">
                 <div class="hero-top">
-                    <div class="pill-badge"></div>
-                    <h1>Structured thinking,<span>Not just note-taking.</span></h1>
-                    <p>A private space to store notes, links, and learning summaries — designed to
+                    <!-- pill badge -->
+                    <div class="pill-badge rounded-100">
+                        <!-- green dot -->
+                        <div class="rounded flex-center" style="background-color: #DAE9E0; width: 16px; height: 16px;">
+                            <div class="rounded flex-center"
+                                style="width: 12px; height: 12px; background-color: #9FC6AE;">
+                                <div class="rounded flex-center"
+                                    style="width: 6px; height: 6px; background-color: #469165;"></div>
+                            </div>
+                        </div>
+                        Early Access Now Open
+                    </div>
+                    <h1>Structured thinking,<br><span>Not just note-taking.</span></h1>
+                    <p>A private space to store notes, links, and learning summaries — designed to<br>
                         help you think clearly, connect ideas, and turn learning into long-term knowledge.</p>
                 </div>
                 <div class="hero-buttons">
-                    <button>Start Building Your Vault</button>
-                    <button>See How It Works</button>
+                    <button class="cta-button">Start Building Your Vault<i class="fa-solid fa-arrow-right"></i></button>
+                    <button class="outline-button"><i class="fa-solid fa-play"></i>See How It Works</button>
                 </div>
             </div>
         </section>
